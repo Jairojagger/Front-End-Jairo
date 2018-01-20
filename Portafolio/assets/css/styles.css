@@ -25,6 +25,7 @@ img{
   display: block;
   margin: 0 auto;
 }
+/* el wi*/
 .fondo-gris{
   background-color: #f1f1f1;
 
@@ -97,7 +98,6 @@ header{
   border-radius: 10px;
   margin: 30px auto;
 }
-
 .card{
   width: 220px;
   min-height: 300px;
@@ -110,7 +110,6 @@ header{
   width: 160px;
   margin: 20px auto;
 }
-
 .blue-button{
   border: none;
   background-color: #49cbcd;
@@ -118,15 +117,48 @@ header{
   color: #fff;
   font-size: 16px;
   border-radius: 5px;
-
 }
 .icon{
   width: 70px;
 }
-
 .image-foto{
  float: left;
  display: block;
  width: 300px;
  margin: 10px;
+}
+.titulo{
+    margin: 20px;
+    text-align: center;
+    color: #607D8B;
+    text-transform: uppercase;
+}
+/* comienza diseño responsivo, las reglas solo se aplican a los elementos que deseamos que sean responsivos */
+@media screen and (max-width: 950px) {
+
+  .wrapperfixed{
+    width: 100%;
+  }
+  header {
+    height: auto;
+  }
+/* la regla body es solo para diferenciar el coor de fondo a manera de ejmplo */
+
+  .banner-tittle {
+    font-size: 45px;
+  }
+  .banner-principal {
+    height: 350px;
+  }
+  .card {
+    margin: 20px auto;
+    float: none;
+  }
+  .image-foto {
+    float: none;
+    width: 250px;
+    margin: 20px auto;
+}
+
+
 }
