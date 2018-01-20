@@ -8,6 +8,12 @@ h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
 }
+img{
+  max-width: 100%;
+}
+.margen-top{
+  margin-top: 30px;
+}
 .clear{
   clear: both;
 }
@@ -116,4 +122,11 @@ header{
 }
 .icon{
   width: 70px;
+}
+
+.image-foto{
+ float: left;
+ display: block;
+ width: 300px;
+ margin: 10px;
 }
